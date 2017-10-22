@@ -28,8 +28,8 @@ In order to connect to the DMX Network a DMX transmittor circuit must be used - 
 - http://www.mathertel.de/Arduino/DMXShield.aspx
 Alternatively Tinkerkit make a arduino Uno shield
 
-To receive and proccess DMX signals the circuit below can be used (WIP)
-- https://easyeda.com/oliversherratt/Disco_Spinner_DMX_Conversion-277eb180a7c242c88b811497e5efb02d
+An arduino based DMX signal processor is available here:
+https://github.com/osherratt12/Arduino-DMX-Receiver
 
 ## Contributors
 
