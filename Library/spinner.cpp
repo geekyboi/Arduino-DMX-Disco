@@ -6,13 +6,13 @@ spinner::spinner(int pin) {
 }
 void spinner::update() {
     if(_masterOnOff && _softOnOff) {
-        //light on
-        //sendDMX( _dmx, _brightness);
-        analogWrite(_dmx, _brightness);
+        //Set light brightness
+        sendDMX( _dmx, _brightness);
+        //analogWrite(_dmx, _brightness);
     } else {
         //light off
-       // sendDMX( _dmx, 0);
-        analogWrite(_dmx, 0);
+        sendDMX( _dmx, 0);
+        //analogWrite(_dmx, 0);
     }
 }
 
