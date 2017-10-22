@@ -5,7 +5,7 @@
 #define lightObject_h
 
 #include <Arduino.h>
-#include <../DmxSimple.h>
+#include <DmxSimple.h>
 
 class lightObject
 {
